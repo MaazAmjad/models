@@ -7,7 +7,7 @@ Collection of pretrained vector models and NLP models for the Urdu language.
 
 ## Table of contents
 
-- [Pretrained_models](#Pretrained_models)
+- [Pretrained models](#pretrained_models)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributors](#contributors)
 - [Copyright and license](#copyright-and-license)
@@ -16,6 +16,10 @@ Collection of pretrained vector models and NLP models for the Urdu language.
 ## Pretrained_models
 
 Collections of multiple models (Word2vec, Fasttext, Glove ..) 
+
+### Word2vec
+- Trained on 50,000 web news data.
+- Download word2vec model link [download](https://drive.google.com/uc?export=download&id=13KLg3wUTOwWiF_YdAtZFe18j7MQmOWfb).
 
 ## Bugs and feature requests
 
