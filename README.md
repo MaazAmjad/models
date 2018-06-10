@@ -15,11 +15,12 @@ Collection of pretrained vector models and NLP models for the Urdu language.
 
 ## Pretrained_models
 
-Collections of multiple models (Word2vec, Fasttext, Glove ..) 
+Collections of multiple vector models trained on different data.
 
-### Word2vec
+#### Word2vec
 - Trained on 50,000 web news data.
 - Download word2vec model link [download](https://drive.google.com/uc?export=download&id=13KLg3wUTOwWiF_YdAtZFe18j7MQmOWfb).
+- Demo (https://github.com/urduhack/models/blob/master/pretrained_models/word2vec/web_news_data)
 
 ## Bugs and feature requests
 
