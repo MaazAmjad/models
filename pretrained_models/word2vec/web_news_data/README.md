@@ -5,8 +5,8 @@
 - Model trained on 50,000 urdu news posts from different categories.
 - Model vector size is 300.
 - Download link (https://drive.google.com/uc?export=download&id=1MEQMqHdsAm1vaJgG9PrNccn0vFEhX41l)
-- Semantic: 273/740, Accuracy: 36.89%
-- Syntactic: 75/240, Accuracy: 31.25%
+- Semantic accuracy: 36.89%
+- Syntactic accuracy: 31.25%
 - Model can be load using python gensim package.
 
 ## Code

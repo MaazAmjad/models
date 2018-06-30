@@ -7,24 +7,24 @@ Collection of pretrained ML and NLP models for the Urdu language.
 
 ## Table of contents
 
-- [Word2vec Models](#Word2vec)
+- [Word2vec Models](#word2vec-models)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributors](#contributors)
 - [Copyright and license](#copyright-and-license)
 
 
-## Word2vec
+## Word2vec Models
 
 Word2vec is a widely used for learns relationships between words and converting word into vector.
 
-### Web News Data model
+### Web News model
 
 - Trained on 50,000 web news posts.
 - Semantic Accuracy: 36.89%
 - Syntactic Accuracy: 31.25%
 - Demo (https://github.com/urduhack/models/blob/master/pretrained_models/word2vec/web_news_data)
 
-### Wikipedia Data model
+### Wikipedia model
 
 - Trained on whole wikipedia corpus.
 - Semantic Accuracy: 59.59%
