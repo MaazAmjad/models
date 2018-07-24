@@ -1,12 +1,12 @@
-# Pretrained Word2vec model on whole wikipedia corpus.
+# Pretrained Word2vec model on web news data .
 
 ## Model Description
 
-- Model trained on 78482 urdu wikipedia posts.
+- Model trained on 50,000 urdu news posts from different categories.
 - Model vector size is 300.
-- Download link (https://drive.google.com/uc?export=download&id=1yz8RfJeg65QByLs1aJUORtPujHYx_oQP)
-- Semantic accuracy: 59.59%
-- Syntactic accuracy: 37.50%
+- Download link (https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300.bin)
+- Semantic accuracy: 36.89%
+- Syntactic accuracy: 31.25%
 - Model can be load using python gensim package.
 
 ## Code
@@ -17,7 +17,7 @@ import gensim, logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 
-model = gensim.models.KeyedVectors.load_word2vec_format('urdu_wikipedia_vector300.bin', binary=True)
+model = gensim.models.KeyedVectors.load_word2vec_format('urdu_web_news_vector300.bin', binary=True)
 
 print(model.most_similar("پاکستان"))
 [('افغانستان', 0.534391462802887)
