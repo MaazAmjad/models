@@ -4,7 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/urduhack/models/blob/master/LICENSE)
 ![Made with Python](https://img.shields.io/badge/made%20with-Python-blue.svg)
 ![Last commit](https://img.shields.io/github/last-commit/urduhack/models.svg)
-[![GitHub issues](https://img.shields.io/github/issues/urduhack/models.svg)](https://github.com/urduhack/models/issues/new)
 
 Collection of pretrained ML and NLP models for the Urdu language.
 
